@@ -1,0 +1,31 @@
+.datalist {
+  padding: 20px 20px;
+  min-width: 100px;
+  min-height: 100px;
+  display: flex;
+  flex: 1 1 auto;
+  position: relative;
+  margin: 5px;
+  background: #fff;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 7px;
+  overflow: auto;
+}
+
+.datalistrelated {
+  position: absolute;
+  text-decoration: none;
+}
+
+.datalistrelated h1 {
+  margin-left: -5px;
+}
+
+.links {
+  text-decoration: none;
+}
+.links:hover {
+  text-decoration: none;
+}

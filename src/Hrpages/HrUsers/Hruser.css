@@ -1,0 +1,18 @@
+input[type="text"] {
+  box-sizing: border-box;
+  outline: none;
+  padding-left: 5px;
+  border: 2px solid rgb(121, 78, 35);
+}
+input[type="password"] {
+  box-sizing: border-box;
+  outline: none;
+  padding-left: 5px;
+  border: 2px solid rgb(121, 78, 35);
+}
+input[type="email"] {
+  box-sizing: border-box;
+  outline: none;
+  padding-left: 5px;
+  border: 2px solid rgb(121, 78, 35);
+}

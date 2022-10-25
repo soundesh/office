@@ -1,0 +1,44 @@
+.Emptasktable {
+  width: 100%;
+  border-collapse: separate;
+  background-color: white;
+  border-spacing: 1px 2px;
+}
+.Emptasktable th {
+  position: sticky;
+  top: -10px;
+  z-index: 1;
+  color: black;
+  text-align: center;
+}
+.Emptasktable thead {
+  border-radius: 10%;
+  position: sticky;
+  top: -10px;
+  z-index: 1;
+}
+/* // background: #def3fa;*/
+.Emptasktable td {
+  text-align: center;
+  line-height: 20px;
+}
+/* .Emptasktable tr:hover td {
+}
+
+.Emptasktable td:hover {
+} */
+
+input[type="date"]::-webkit-inner-spin-button,
+input[type="date"]::-webkit-calendar-picker-indicator {
+  margin-left: -20px;
+  width: 25px;
+  height: 25px;
+}
+
+input[type="text"] {
+  box-sizing: border-box;
+  outline: none;
+  padding-left: 5px;
+  border-radius: 6px;
+  border-color: rgb(126, 48, 150);
+}

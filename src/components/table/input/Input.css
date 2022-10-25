@@ -1,0 +1,9 @@
+input[type="text"] {
+  width: 100%;
+  padding: 3px 5px;
+  margin: 4px 0;
+  box-sizing: border-box;
+  outline: none;
+  border: 2px solid #6b6dd4;
+  border-radius: 10px;
+}

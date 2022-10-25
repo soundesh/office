@@ -1,0 +1,38 @@
+.HRtable {
+  width: 100%;
+  border-collapse: separate;
+  background-color: white;
+  border-spacing: 1px 2px;
+  overflow: auto;
+}
+.HRtable th {
+  position: sticky;
+  top: -10px;
+  z-index: 1;
+  color: black;
+  text-align: center;
+}
+.HRtable thead {
+  border-radius: 10%;
+  position: sticky;
+  top: -10px;
+  z-index: 1;
+}
+/* // background: #def3fa;*/
+.HRtable td {
+  text-align: center;
+}
+.HRtable tr td {
+}
+
+.HRtable td:hover {
+}
+
+/* 
+.addEmpForm {
+  transform: scale(1);
+  transition: transform 0.2s, box-shadow 0.3s !important;
+  border-radius: 10px;
+  padding: 30px;
+  margin-top: 30px;
+} */

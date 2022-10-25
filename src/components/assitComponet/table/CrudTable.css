@@ -1,0 +1,40 @@
+.CrudTable {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  border-collapse: collapse;
+}
+.CrudTable th {
+  position: sticky;
+  top: -10px;
+  z-index: 1;
+  color: black;
+  text-align: center;
+  border: none;
+}
+/* // background: #def3fa;*/
+.CrudTable td {
+  text-align: center;
+  line-height: 20px;
+  align-items: center;
+  padding: 10px;
+}
+
+/* // background: #def3fa;*/
+.CrudTable td {
+  text-align: center;
+  line-height: 20px;
+  border: 2px solid gray;
+  border-left: hidden;
+  border-right: hidden;
+  align-items: center;
+}
+
+.CrudTable tr:first-child > td {
+  text-align: center;
+  line-height: 20px;
+  border: 2px solid gray;
+  border-top: hidden;
+  border-left: hidden;
+  border-right: hidden;
+  align-items: center;
+}

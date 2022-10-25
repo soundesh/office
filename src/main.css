@@ -1,0 +1,38 @@
+.btnFocus:focus {
+  outline: none;
+}
+.linkunder {
+  text-decoration: none;
+}
+.whbR {
+  min-width: 270px;
+  min-height: 270px;
+  background: #fff;
+  border-radius: 10px;
+  margin: 2px;
+  padding: 10px;
+}
+
+.headerfont {
+  text-transform: uppercase;
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+}
+.TableHeadertext {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 16px;
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.TableBodytext {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 16px;
+  color: black;
+  font-family: "Nunito", sans-serif;
+}
+.indexz {
+  z-index: 1;
+}

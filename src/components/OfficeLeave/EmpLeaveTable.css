@@ -1,0 +1,57 @@
+.EmpLeaveTable {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  border-collapse: collapse;
+}
+.EmpLeaveTable th {
+  position: sticky;
+  top: -10px;
+  z-index: 1;
+  color: black;
+  text-align: center;
+  border: none;
+}
+/* // background: #def3fa;*/
+.EmpLeaveTable td {
+  text-align: center;
+  line-height: 20px;
+  align-items: center;
+  padding: 10px;
+}
+
+/* // background: #def3fa;*/
+.EmpLeaveTable td {
+  text-align: center;
+  line-height: 20px;
+  border: 2px solid gray;
+  border-left: hidden;
+  border-right: hidden;
+  align-items: center;
+}
+
+.EmpLeaveTable tr:first-child > td {
+  text-align: center;
+  line-height: 20px;
+  border: 2px solid gray;
+  border-top: hidden;
+  border-left: hidden;
+  border-right: hidden;
+  align-items: center;
+}
+
+.EmpLeaveTable td:hover {
+}
+
+input[type="date"]::-webkit-inner-spin-button,
+input[type="date"]::-webkit-calendar-picker-indicator {
+  margin-left: -30px;
+  width: 25px;
+  height: 25px;
+}
+
+input[type="text"] {
+  box-sizing: border-box;
+  outline: none;
+  padding-left: 5px;
+  border-radius: 10px;
+}

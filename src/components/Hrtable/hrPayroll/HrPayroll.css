@@ -1,0 +1,46 @@
+.Payrolllist {
+  min-width: 100px;
+  min-height: 100px;
+
+  margin: 5px;
+  background: #fff;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 7px;
+  overflow: auto;
+}
+
+.HrPayrolltable {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+  border-spacing: 1px 2px;
+}
+.HrPayrolltable th {
+  position: sticky;
+  top: -10px;
+  z-index: 1;
+  color: black;
+  text-align: center;
+}
+.HrPayrolltable thead {
+  border-radius: 10%;
+  position: sticky;
+  top: -10px;
+  z-index: 1;
+}
+/* // background: #def3fa;*/
+.HrPayrolltable td {
+  text-align: center;
+  line-height: 20px;
+  border: 2px solid gray;
+  border-left: hidden;
+  border-right: hidden;
+  align-items: center;
+}
+
+.HrPayrolltable tbody tr:nth-child(odd) {
+  background-color: rgb(236, 238, 225);
+}
